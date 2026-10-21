@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+# Local design references and prototype history
+prototipo/
+stitch_peptide_pharmacy_app/
+revision-*/
+/images/
+*.pen
+*.png
+brief-ux-pen-dev.md
+prompt-alineacion-pen.md
+refinamiento-ux-pen-dev.md

@@ -1,0 +1,23 @@
+{
+  "name": "ambrosial-pharmacy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "App de farmacia y solicitudes de reserva con dise\u00f1o Aura",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test",
+    "check": "npm run format:check && node --check src/main.js && npm test && npm run build",
+    "format": "prettier --write src tests index.html vite.config.js package.json README.md .github",
+    "format:check": "prettier --check src tests index.html vite.config.js package.json README.md .github"
+  },
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "vite": "^8.3.5"
+  }
+}
